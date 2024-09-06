@@ -1,0 +1,115 @@
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: "Nerko One", cursive;
+    color: white;
+    position: relative;
+    background: linear-gradient(245.59deg, #ce8313 0%, #7c5727 25%, #b64a02 75%);
+}
+
+.header{
+    text-align: center;
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+
+.header h1{
+    margin: 0;
+    padding: 0;
+}
+.header p{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d48319;
+    padding: 1.5rem 0;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 2rem;
+}
+.navbar > li > a{
+    color: white;
+    text-decoration: none;
+    transition: all .5s ease;
+    font-size: 2rem;
+}
+.navbar > li > a:hover{
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.social>div>a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    padding-top: 5rem;
+}
+
+.catalogo div{
+    border: 1px solid #929292;
+    margin: 1rem;
+}
+
+.tarjeta{
+    padding: 1rem;
+}
+.tarjeta a{
+    text-decoration: none;
+    color: rgb(182, 180, 180);
+}
+
+.tarjeta img{
+    max-width: 20rem;
+}
+
+.footer{
+    background-color: black;
+}
+.footer p{
+    text-align: center;
+    padding: 3rem 0;
+}
